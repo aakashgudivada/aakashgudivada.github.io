@@ -34,8 +34,10 @@ if (id){
                 newtag.textContent = element
                 langs.appendChild(newtag)
             });
-            loading.style.display = "none";
-            content.style.display = "flex";
+            setTimeout(() => {
+                loading.style.display = "none";
+                content.style.display = "flex";
+            }, 1500);
             view.addEventListener("click",function(){
                 document.location.href = projectdata["link"];
                 return

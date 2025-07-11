@@ -10,6 +10,7 @@
     font-size: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-family: "Roboto",sans-serif;
     text-align: left;
 }
 
@@ -56,6 +57,7 @@ footer{
     background-color: rgba(0,0,0,0.15);
     width: auto;
     min-width: 50px;
+    font-family: "Roboto",sans-serif;
     height: 100%;
     cursor: pointer;
     border-radius: 5px;

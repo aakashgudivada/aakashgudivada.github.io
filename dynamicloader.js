@@ -40,12 +40,25 @@ fetch("projectdata.json")
 .then(data => {
     projectdata = data;
     const length = Object.keys(data).length || 0;
-    des1.innerHTML = des1.innerHTML + ` [${length}].`
+    //des1.innerHTML = des1.innerHTML + ` [${length}].`
     const container = document.getElementById("projectlist");
     Object.entries(data).forEach(([id,projectdata]) => {
         const projectelement = document.createElement("li");
         projectelement.id = "project";
         container.appendChild(projectelement);
+        const newimg = document.createElement("img");
+        newimg.src = projectdata.icon;
+        newimg.id = "icon"
+        projectelement.appendChild(newimg)
+
+        const h1 = document.createElement("h1");
+        h1.textContent = projectdata.title;
+        projectelement.appendChild(h1)
+
+        const button = document.createElement("button");
+        button.textContent = "VIEW"
+        projectelement.appendChild(button);
+
         const tagscontainer = document.createElement("ul");
         projectelement.appendChild(tagscontainer);
         tagscontainer.className = "tags";
@@ -57,18 +70,6 @@ fetch("projectdata.json")
             })
         }
         projects[id] = projectelement;
-        const newimg = document.createElement("img");
-        newimg.src = projectdata.icon;
-        newimg.id = "icon"
-        projectelement.appendChild(newimg)
-
-        const h1 = document.createElement("h1");
-        h1.textContent = projectdata.title;
-        projectelement.appendChild(h1)
-
-        const p = document.createElement("p");
-        p.innerHTML = projectdata.description || "";
-        projectelement.appendChild(p)
 
         const label = document.createElement("h3");
         label.textContent = "TECHSTACK";
@@ -92,10 +93,6 @@ fetch("projectdata.json")
             newtitle.textContent = lg
         })
 
-        const button = document.createElement("button");
-        button.textContent = "EXPLORE"
-        projectelement.appendChild(button);
-
         button.addEventListener("click",function(){
             if (projectdata.link === ""){
                 showerror("This project is proprietory only!")
@@ -114,10 +111,10 @@ const none = document.getElementById("none");
 fb.forEach(button =>{
     button.addEventListener("click",function(){
         if (current !== null){
-            current.style.backgroundColor = "#333147"
+            current.style.backgroundColor = "rgb(245,245,245)"
         }
         current = button;
-        button.style.backgroundColor = "#40a1e3"
+        button.style.backgroundColor = "rgb(235,235,235)"
         const p1 = button.querySelector("p1");
         const targetSearch = p1.textContent;
         if (!projectdata) return;

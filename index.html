@@ -42,49 +42,30 @@
     </div>
     <div class="stats2">
     </div>
-    <div class="projects">
-        <h1 id="heading">PROJECTS</h1>
-        <h3 id="des1">Tap to filter below (Proprietory only cannot be viewed as the source is hidden).<br>[C-API] Composite API [Platform] Inside a platform [Guide] Tutorial/research code</h3>
+    <h1 id="heading">PROJECTS</h1>
+    <p id="st">Filters</p>
+    <img id="filtericon" src="/Images/Icons/filter.png" onclick="document.querySelector(`filters`).style.display = `flex`">
+    <div class="pc">
         <ul id="filters">
             <li>
-                <img src="/Images/Icons/js.png">
-                <p1>JavaScript</p1>
+                <img src="/Images/Icons/Untitled design (29).png">
+                <h3>Website Design</h3>
+                <p>73 Projects</p>
             </li>
             <li>
-                <img src="/Images/Icons/Lua-Logo.svg.png">
-                <p1>Lua</p1>
+                <img src="/Images/Icons/Untitled design (27).png">
+                <h3>Game Dev</h3>
+                <p>10 Projects</p>
             </li>
             <li>
-                <img src="/Images/Icons/joystick.png">
-                <p1>Game</p1>
+                <img src="/Images/Icons/Untitled design (28).png">
+                <h3>API & Arch</h3>
+                <p>15 Projects</p>
             </li>
             <li>
-                <img src="/Images/Icons/html-5.png">
-                <p1>Web</p1>
-            </li>
-            <li>
-                <img src="/Images/Icons/c-.png">
-                <p1>C++</p1>
-            </li>
-            <li>
-                <img src="/Images/Icons/KcqDuQYTxNpUcLIMZTg28QXse0XiWx1G7K68kYYCo1GuhoHmhB_V8Qe9odGGt0BH9-0nQZTN53WXTNpDmwVfWQ.svg">
-                <p1>C</p1>
-            </li>
-            <li>
-                <img src="/Images/Icons/blender-3d.png">
-                <p1>3D Modelling</p1>
-            </li>
-            <li>
-                <img src="/Images/Icons/python.png">
-                <p1>Python</p1>
-            </li>
-            <li>
-                <img src="/Images/Icons/networking.png">
-                <p1>Network/Operations</p1>
-            </li>
-            <li>
-                <img src="/Images/Icons/deep-learning.png">
-                <p1>AIML</p1>
+                <img src="/Images/Icons/Untitled design (30).png">
+                <h3>Tutorials</h3>
+                <p>73 Projects</p>
             </li>
         </ul>
         <ul class="content" id="projectlist">
@@ -111,8 +92,11 @@
         For business or general inquiries, please reach out via email or through any of the social links provided above. Additional contact information, such as a phone number, will be shared upon request.<br><br><b>To purchase services or subscriptions, please click the Discord icon to get started.</b>
     </p>
     <div class="msg">
-        <img src="/Images/Icons/triangle-warning.png">
-        <h3 id="errormsg">This project is properitory only!</h3>
+        <div class="msgcontent">
+            <img src="/Images/Icons/triangle-warning.png">
+            <h3 id="errormsg">This project is properitory only!</h3>
+            <button onclick="document.querySelector(`.msg`).style.display = `none`">OK</button>
+        </div>
     </div>
     <footer>
         <p id="footertitle">
