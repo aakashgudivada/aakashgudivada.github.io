@@ -1,0 +1,21 @@
+{
+    "13223023": [
+        {
+            "type": "h2",
+            "text": "CPU, GPU and NPUs, how do they differ?"
+        },
+        {
+            "type": "h3",
+            "text": "1. Architecture differences."
+        },
+        {
+            "type": "p",
+            "text": "Here’s a simple analogy:<br>1. CPU = A few skilled senior employees. ( They can do almost any task — even complex ones — but they’re limited in number.)<br>2. GPU = Hundreds or mostly thousands of interns. They excel at performing repetitive tasks and matrix multiplications, such as rendering every pixel on a screen many times.<br>3. NPU = Hundreds or sometimes thousands of interns who are excellent at maths only (incredibly fast at specific mathematical operations only) — although they cannot do other general work like a GPU, perfect for AI tasks like running neural networks, which usually run on many mathematical operations.<br><br>Although, each core in GPU are slightly less powerful than CPUs, having more cores here allows for insane parallelism.<br><br>CPUs usually run fewer complex threads, while GPUs run simpler threaded but more tasks.<br>These interns and employees are the cores, demonstrating the difference between the power of a CPU core and a GPU core.<br><br>Now, the GPU also has many smaller cores. Why use NPU?<br>This is a common misconception. Now you can think of:<br>1. GPU as a student is good at all subjects, and<br>2. NPU is a student who only studies math but is a national-level champion at it.<br><br>Now GPUs can do maths too, but when you ask a maths-only student and a general student who studies maths, the maths only student typically performs faster.<br><br>This is also the case with NPU; GPUs can generally perform parallel work at extremely high speeds, but NPUs are specifically designed for high efficiency in mathematical operations (in actual usage, there will be a noticeable difference in elapsed time as well).<br><br>Moreover, high-powered GPUs are often used for AI as well; the NPU is just another unit specifically designed for AI.<br><br>Why does this matter to anyone?<br>1. Helps you make smarter tech purchases when you know what you want.<br>2. Deepens your understanding of how devices run tasks.<br>3. Adds to general tech literacy.<br><br>Usage examples:<br>1. GPUs are commonly used for graphics rendering, as they involve millions of pixels/calculations for a better visualization.<br>2. Parallism is the core of GPU and NPU, making it highly beneficial for AI and Rendering-like tasks.<br>3. GPUs alone cannot handle browsers and such computing, so CPUs are equally important.<br><br>A GPU (Graphics processing unit) cores have different names. (Ex: CUDA)<br><br>An OS (Operating System) usually assigns these tasks to the hardware (CPU, GPU, and NPU, if available) to utilize resources effectively based on their functions.<br>This is a high-level explanation of the concept. If you find this interesting, you can look at Computer Architecture."
+        },
+        {
+            "type": "a",
+            "href": "https://www.linkedin.com/posts/aakash-gudivada-a30282238_when-i-worked-with-a-few-teams-i-noticed-activity-7348674722076741632-9wGz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsg80QBqEWMOShgwdmEYnTln1xFofp1u34",
+            "text": "(https://www.linkedin.com/posts/aakash-gudivada-a30282238_when-i-worked-with-a-few-teams-i-noticed-activity-7348674722076741632-9wGz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsg80QBqEWMOShgwdmEYnTln1xFofp1u34)"
+        }
+    ]
+}

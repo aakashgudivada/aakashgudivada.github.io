@@ -1,0 +1,106 @@
+{
+    "100":{
+        "title": "Geolocation Retrival Composite API",
+        "description": "This system retrives the geolocation of the responder's IP by using composite APIs and connects to the typical way of microservices.",
+        "icon": "Images/Icons/00.png",
+        "link": "",
+        "tags": ["Proprietory","C-API","Microservices"],
+        "languages": ["node.js","NoSQL","JavaScript","Networking/Operations"]
+    },
+    "102":{
+        "title": "Ranking & Moderation System",
+        "description": "This works on Discord.js, node.js, noblox.js, MonogoDB Atlas and webscrapping to get, edit or change a player's data in a community across applications.",
+        "icon": "Images/Icons/rankmod.png",
+        "link": "https://glitch.com/edit/#!/rank-bot-js",
+        "tags": ["Open-source","C-API","Microservices"],
+        "languages": ["node.js","NoSQL","JavaScript"]
+    },
+    "108":{
+        "title": "Nearly Impossible DCO (Game)",
+        "description": "Achieved 19 Million Visits.<br>Reached over 2,000 CCU.<br><br>Also played by youtubers such as (https://www.youtube.com/playlist?list=PL3WJYPxwS62hCbaxtHWnUYHmdt3bYnjml)",
+        "icon": "https://tr.rbxcdn.com/180DAY-ed272c6ee80c33d8bafd0a65f4587b6e/256/256/Image/Webp/noFilter",
+        "link": "https://glitch.com/edit/#!/rank-bot-js",
+        "tags": ["Proprietory & Platform","Cross-platform"],
+        "languages": ["Lua","Game","UI/UX","3D Modelling"]
+    },
+    "110":{
+        "title": "Minimalistic Login Page",
+        "description": "An ultra minimal user interface for login page. (Recreated using react.js)",
+        "icon": "Images/Icons/minimallogin.png",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7253002604803194880/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7253002604803194880%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29",
+        "tags": ["Open-source"],
+        "languages": ["HTML & CSS","UI/UX","JavaScript"]
+    },
+    "00":{
+        "title": "Server Region Locator Tool",
+        "description": "This system retrives the location of the server using it's IP of the responser in JSON format<br><br>Simplified by parameter based oAuth.",
+        "icon": "Images/Icons/region.png",
+        "link": "https://devforum.roblox.com/t/how-to-get-a-server-locationregion-on-roblox/1518509",
+        "tags": ["Guide","Backend"],
+        "languages": ["Lua","node.js"]
+    },
+    "02":{
+        "title": "Cross-server Matchmaking",
+        "description": "This system creates a system where players from across many servers can join a Queue/Stack match and can be connected across many servers in real-time.",
+        "icon": "Images/Icons/02.png",
+        "link": "https://devforum.roblox.com/t/how-to-make-a-cross-server-matchmaking-system-full-tutorial/2707983",
+        "tags": ["Guide","Full-stack"],
+        "languages": ["Lua","UI/UX","Game"]
+    },
+    "04":{
+        "title": "Hotel Room Alotter Framework",
+        "description": "This system uses Remote Events and WS like connection to have a hotel alloter system across many players and server to enchance concurrency and UX.",
+        "icon": "Images/Icons/hotel.png",
+        "link": "https://devforum.roblox.com/t/how-to-make-a-hotel-room-system/1581650",
+        "tags": ["Guide","Backend"],
+        "languages": ["Lua","UI/UX","Game"]
+    },
+    "06":{
+        "title": "Getting Assets of User",
+        "description": "This system uses backend serverless APIs to get a user's assets by bypassing default security and retriving the assets of a player.",
+        "icon": "Images/Icons/js.png",
+        "link": "https://devforum.roblox.com/t/how-to-get-all-players-shirts-pants-and-t-shirts-of-player/1675658",
+        "tags": ["Guide","Backend"],
+        "languages": ["Lua","node.js","Game"]
+    },
+    "08":{
+        "title": "Discord-Roblox-Discord Bot",
+        "description": "This bot connects via API and acts like a bridge to access and send message across different applications from the game.",
+        "icon": "Images/Icons/config.png",
+        "link": "https://glitch.com/edit/#!/game-api",
+        "tags": ["Bot & API","Cross-application","Game"],
+        "languages": ["Lua","node.js","JavaScript","Game"]
+    },
+    "002":{
+        "title": "Grid based system",
+        "description": "This system creates a grid of Xn and Yn, for those experiences involving a building system by grid layout of size N.",
+        "icon": "Images/Icons/js.png",
+        "link": "https://glitch.com/edit/#!/game-api",
+        "tags": ["Game"],
+        "languages": ["Lua","Game"]
+    },
+    "004":{
+        "title": "Sandbox Build Framework",
+        "description": "This system creates a grid of Xn and Yn, for those experiences involving a building system by grid layout of size N.",
+        "icon": "Images/Icons/buildmode.png",
+        "link": "https://x.com/deadwood_x/status/1864261193755718085",
+        "tags": ["Game","Full-stack"],
+        "languages": ["Lua","Game","3D Modelling","UI/UX"]
+    },
+    "008":{
+        "title": "Minimalistic UI",
+        "description": "This system creates a grid of Xn and Yn, for those experiences involving a building system by grid layout of size N.",
+        "icon": "/Images/Icons/GP3XJxsaoAAVHEJ.png",
+        "link": "https://x.com/deadwood_x/status/1800832457509630266",
+        "tags": ["Game","Full-stack"],
+        "languages": ["Lua","UI/UX","Game"]
+    },
+    "010":{
+        "title": "GPU, TPU and CPU: Simply Explained",
+        "description": "This system creates a grid of Xn and Yn, for those experiences involving a building system by grid layout of size N.",
+        "icon": "https://media.licdn.com/dms/image/v2/D4E22AQFSczO67sjc6g/feedshare-shrink_800/feedshare-shrink_800/0/1716912338796?e=1755129600&v=beta&t=UW2jbGmRB7oVjgYIb4X7MlHxvM_eR3va_8T0vmHrcEk",
+        "link": "https://x.com/deadwood_x/status/1800832457509630266",
+        "tags": ["Guide"],
+        "languages": ["Hardware"]
+    }
+}

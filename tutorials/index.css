@@ -1,0 +1,41 @@
+.content{
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+}
+
+.content h3{
+    width: 100%;
+    height: auto;
+    height: 40px;
+    font-size: 140%;
+    font-weight: 500;
+}
+
+.content h2{
+    font-size: 170%;
+    height: 40px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.content p{
+    width: 100%;
+    font-weight: lighter;
+    font-size: 105%;
+    margin: 10px 0px;
+    height: auto;
+}
+
+.content a{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    margin-top: 50px;
+}
