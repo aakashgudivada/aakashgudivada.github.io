@@ -585,56 +585,26 @@ footer{
     display: none;
 }
 
-@media(max-width: 768px){
-    #filters li{
-        height: 50%;
-        width: auto;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding: 10px 40px;
-    }
-    #filters p1{
-        display: flex;
-        text-align: center;
-        width: auto;
-        padding-right: 10px;
-    }
-    #filters img{
-        margin-right: 30px;
-    }
+@media(max-width: 800px){
     #filters{
-        height: 45px;
-        overflow-x: auto;
+        width: 70%;
     }
-    .content{
+    #projectlist{
+        grid-template-columns: repeat(1,2fr);
         width: 100%;
-        margin: 0;
-        margin-top: 10px;
-        grid-template-columns: repeat(2,5fr);
-    }
-    .tags{
-        width: 80%;
-        display: flex;
-        justify-content: flex-start;
-        height: 40px;
-        overflow-x: auto;
-    }
-    .tags li{
-        width: auto;
-        white-space: nowrap;
-        border-radius: 5px;
-    }
-    .contact{
-        margin-top: 50px;
-    }
-    .contact h3{
-        width: 80vw;
     }
 }
 
 @media(max-width: 480px) {
     .content{
+        grid-template-columns: repeat(1,5fr);
+        height: auto;
+        display: none;
+    }
+    #projectlist{
+        height: auto;
+        width: auto;
+        margin-left: 0;
         grid-template-columns: repeat(1,5fr);
     }
     footer{
@@ -716,5 +686,9 @@ footer{
 
     .stats,.stats2{
         height: 40vh;
+    }
+
+    #cd{
+        margin-bottom: 30px;
     }
 }
